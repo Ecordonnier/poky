@@ -1,0 +1,25 @@
+From ee56de35c3315da79499bf667e9703af22004379 Mon Sep 17 00:00:00 2001
+From: Etienne Cordonnier <ecordonnier@snap.com>
+Date: Wed, 12 Feb 2025 22:33:14 +0100
+Subject: [PATCH] add debug log
+
+Upstream-Status: Pending
+---
+ src/setuptools_scm/_file_finders/git.py | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/src/setuptools_scm/_file_finders/git.py b/src/setuptools_scm/_file_finders/git.py
+index 7b23f88..9e668bd 100644
+--- a/src/setuptools_scm/_file_finders/git.py
++++ b/src/setuptools_scm/_file_finders/git.py
+@@ -72,6 +72,7 @@ def _git_ls_files_and_dirs(toplevel: str) -> tuple[set[str], set[str]]:
+     # export-ignore git attribute
+ 
+     cmd = ["git", "archive", "--prefix", toplevel + os.path.sep, "HEAD"]
++    log.error("foobarr running command with wrong toplevel: %s" % cmd)
+     proc = subprocess.Popen(
+         cmd, stdout=subprocess.PIPE, cwd=toplevel, stderr=subprocess.DEVNULL
+     )
+-- 
+2.43.0
+
