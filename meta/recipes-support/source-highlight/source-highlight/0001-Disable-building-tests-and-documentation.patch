@@ -1,0 +1,27 @@
+From 80d9da83271cebaa8ff929b734211789e4dd7364 Mon Sep 17 00:00:00 2001
+From: Etienne Cordonnier <ecordonnier@snap.com>
+Date: Wed, 9 Apr 2025 11:57:51 +0200
+Subject: [PATCH] test
+
+[patch-status] Inappropriate
+Signed-off-by: Etienne Cordonnier <ecordonnier@snap.com>
+---
+ Makefile.am | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/Makefile.am b/Makefile.am
+index a9a8d3e..72f48b3 100644
+--- a/Makefile.am
++++ b/Makefile.am
+@@ -8,7 +8,7 @@
+ # WITHOUT ANY WARRANTY, to the extent permitted by law; without even the
+ # implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+ 
+-SUBDIRS = m4 gl lib src doc tests
++SUBDIRS = m4 gl lib src
+ 
+ EXTRA_DIST = \
+ 	source-highlight.spec.in \
+-- 
+2.43.0
+

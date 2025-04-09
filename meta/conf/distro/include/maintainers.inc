@@ -777,6 +777,7 @@ RECIPE_MAINTAINER:pn-shutdown-desktop = "Unassigned <unassigned@yoctoproject.org
 RECIPE_MAINTAINER:pn-signing-keys = "Richard Purdie <richard.purdie@linuxfoundation.org>"
 RECIPE_MAINTAINER:pn-slang = "Yi Zhao <yi.zhao@windriver.com>"
 RECIPE_MAINTAINER:pn-socat = "Hongxu Jia <hongxu.jia@windriver.com>"
+RECIPE_MAINTAINER_pn-source-highlight = "Etienne Cordonnier <ecordonnier@snap.com>"
 RECIPE_MAINTAINER:pn-speex = "Michael Opdenacker <michael@opdenacker.org>"
 RECIPE_MAINTAINER:pn-speexdsp = "Michael Opdenacker <michael@opdenacker.org>"
 RECIPE_MAINTAINER:pn-spirv-headers = "Jose Quaresma <quaresma.jose@gmail.com>"
